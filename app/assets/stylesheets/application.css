@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ body{
+ 	background:url("/assets/back_repeat.jpg");
+ 	padding-top:40px;
+ 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif!important;
+ }
+ h1{
+ 	color:#081d2f;
+ 	font-family: 'Arial Black',Gadget, sans-serif;
+ 	font-size:40px;
+ 	float:left;
+ 	width:250px;
+ 	margin:0;
+ 	padding:0;
+ 	text-align:left;
+ }
+ #wrap .button{
+ 	padding:5px 20px;
+ 	margin:5px auto;
+ 	display:block;
+ 	border-radius:5px;
+ 	background:#0e3c62;
+ 	width: 125px;
+	line-height: 35px;
+	color:#defbff;
+	transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-webkit-transition: color 0.2s;
+	-o-transition: color 0.2s;
+	transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+	-o-transition: background 0.3s;
+	border:none;
+	cursor:pointer;
+ }
+ #wrap .button:hover{
+ 	color:#ade8f1;
+ 	background:#0c2a44;
+ }
+ #newPost{
+ 	float:right;
+ }
+ #header{
+
+ }
+ #wrap{
+ 	width:900px;
+ 	margin:0 auto;
+ 	text-align:center;
+ }
+ #wrap a{
+ 	text-decoration:none;
+ }
+ #wrap .post a{
+ 	color:#defbff;
+ 	text-decoration:none;
+ 	border-bottom:1px solid transparent;
+ 	transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-webkit-transition: color 0.2s;
+	-o-transition: color 0.2s;
+ }
+ #wrap .post a:hover{
+ 	color:#ade8f1;
+ 	background:none;
+ 	border-bottom:1px dotted #ade8f1;
+ }
+ .post{
+ 	border-radius:10px;
+ 	margin:20px auto;
+ 	width:100%;
+ }
+ .postTop,.postBtm{
+ 	padding:5px 20px;
+ 	text-align:left;
+ }
+ .postTop{ 	
+ 	background:#0c2a44;
+	color:#f7f7f7;
+	border-top-right-radius:10px;
+ 	border-top-left-radius:10px;
+ 	position:relative;
+ }
+ .postTop h2{
+ 	margin:5px 0 10px;
+ 	text-transform:capitalize;
+ }
+ .postBtm{
+ 	background:#345572;
+ 	border:1px solid #2e4d68;
+ 	padding:20px;
+ 	color:#f7f7f7;
+ 	border-bottom-right-radius:10px;
+ 	border-bottom-left-radius:10px;
+ }
+ .timestamp{
+ 	position: absolute;
+	width: 150px;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: -18px;
+ }
+ #formBox{
+ 	display:none;
+ }
